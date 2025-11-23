@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+  font-family: 'DS-Digital';
+  src: url('/fonts/DS-DIGIB.TTF') format('truetype');
+}
+.digital-clock {
+  font-family: 'DS-Digital', monospace; /* O tu fuente segmentada */
+  font-size: 3rem;
+  color:  #EABE3F;
+  background-color: #000;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  text-shadow: 0 0 10px #FFD700;
+}
