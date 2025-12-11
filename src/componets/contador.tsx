@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 interface TiempoRestante {
     dias: number;
@@ -8,6 +9,7 @@ interface TiempoRestante {
     segundos: number;
 }
 const Conteo2026 = () => {
+    const router = useRouter();
     const fechaEvento = new Date("January 1, 2026 00:00:00").getTime();
     const [tiempoRestante, setTiempoRestante] = useState<TiempoRestante>({
         dias: 0,
@@ -29,7 +31,7 @@ const Conteo2026 = () => {
                     minutos: 0,
                     segundos: 0,
                 });
-                alert("¡FELIZ AÑO 2026! 🎉");
+                router.push("./app/feliz2026")
                 return;
             }
 
@@ -46,7 +48,7 @@ const Conteo2026 = () => {
 
     return (
         <div>
-            <div className="flex justify-center">
+            <div className="flex justify-center mt-20">
                 <img src="/letrero2026.png" alt="2026" className="w-80 h-80" />
             </div>
             <div className="grid grid-cols-4 gap-4 text-center text-orange-500 bg-black p-4 rounded-lg font-digital text-4xl digital-clock">
