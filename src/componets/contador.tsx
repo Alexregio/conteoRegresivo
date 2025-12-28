@@ -10,7 +10,7 @@ interface TiempoRestante {
 }
 const Conteo2026 = () => {
     const router = useRouter();
-    const fechaEvento = new Date("december 27, 2025 19:40:00").getTime();
+    const fechaEvento = new Date("january 1, 2026 00:00:00").getTime();
     const [tiempoRestante, setTiempoRestante] = useState<TiempoRestante>({
         dias: 0,
         horas: 0,
