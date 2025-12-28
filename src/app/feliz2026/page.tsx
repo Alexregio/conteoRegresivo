@@ -22,8 +22,8 @@ export default function FelizAno2026() {
   return (
     <div className="min-h-screen bg-cover bg-center bg-black relative overflow-hidden">
       {/* EFECTOS PRIMERO */}
-      <SparklesCanvas count={200} />
       <FireworksDisplay />
+      <SparklesCanvas count={200} />
       <GoldenConfetti count={200} />
       <StarSparkles count={40} />
       <ConfettiExplosion />
