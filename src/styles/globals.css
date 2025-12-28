@@ -40,3 +40,12 @@ body {
   text-align: center;
   text-shadow: 0 0 10px #FFD700;
 }
+.neon-text {
+  color: #E6E6E6;
+  text-shadow:
+    0 0 5px #FFD700,
+    0 0 10px #FFD700,
+    0 0 20px #FFD700,
+    0 0 40px #FFD700,
+    0 0 80px #FFD700;
+}

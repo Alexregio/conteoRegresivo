@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex justify-center bg-black h-screen">
       <SparklesCanvas count={200} />
-      <FireworksDisplay/>
+      
       <Conteo2026 />
     </div>
   );

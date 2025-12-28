@@ -18,7 +18,7 @@ const FireworksDisplay = () => {
         traceSpeed: 10,
         explosion: 10,
         intensity: 30,
-        hue: { min: 40, max: 60 }, // tonos dorados
+        hue: { min: 0, max: 360 },
         delay: { min: 30, max: 60 },
       });
 
