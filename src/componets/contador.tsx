@@ -8,9 +8,9 @@ interface TiempoRestante {
     minutos: number;
     segundos: number;
 }
-const Conteo2026 = () => {
+const Conteo2027 = () => {
     const router = useRouter();
-    const fechaEvento = new Date("january 1, 2026 00:00:00").getTime();
+    const fechaEvento = new Date("january 1, 2027 00:00:00").getTime();
     const [tiempoRestante, setTiempoRestante] = useState<TiempoRestante>({
         dias: 0,
         horas: 0,
@@ -31,7 +31,7 @@ const Conteo2026 = () => {
                     minutos: 0,
                     segundos: 0,
                 });
-                router.push("./feliz2026")
+                router.push("./feliz2027")
                 return;
             }
 
@@ -49,7 +49,7 @@ const Conteo2026 = () => {
     return (
         <div>
             <div className="flex justify-center mt-20">
-                <img src="/letrero2026.png" alt="2026" className="w-80 h-80" />
+                <img src="/letrero2027.png" alt="2027" className="w-80 h-80" />
             </div>
             <div className="grid grid-cols-4 gap-4 text-center text-orange-500 bg-black p-4 rounded-lg font-digital text-4xl digital-clock">
                 <div>
@@ -73,4 +73,4 @@ const Conteo2026 = () => {
     );
 };
 
-export default Conteo2026;
+export default Conteo2027;

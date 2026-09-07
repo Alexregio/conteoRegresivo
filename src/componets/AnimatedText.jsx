@@ -52,7 +52,7 @@ export default function AnimatedText() {
         ))}
       </motion.h1>
 
-      {/* 2026 – SOLO LATIDO */}
+      {/* 2027 – SOLO LATIDO */}
       <div className="flex justify-center mt-10">
         <motion.span
           className="text-[8rem] font-extrabold neon-text z-999"
@@ -63,7 +63,7 @@ export default function AnimatedText() {
             ease: "easeInOut",
           }}
         >
-          2026
+          2027
         </motion.span>
       </div>
     </div>
